@@ -1,0 +1,21 @@
+{
+  "name": "mono-nest-turbo",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/**/*",
+    "libs/**/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run start --parallel"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.17"
+}
